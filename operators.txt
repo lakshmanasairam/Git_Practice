@@ -1,0 +1,41 @@
+Note: Division(/) operator always performs floating point arithmetic. Hence it will always returns 
+float value.
+But Floor division (//) can perform both floating point and integral arithmetic. If 
+arguments are int type then result is int type. If atleast one argument is float type then 
+result is float type.
+Ex:
+10/2==>5.0
+10//2==>5
+10.0/2===>5.0
+10.0//2===>5.0
+---------------------------------->
++ =>string concatenation operator
+* =>string multiplication operator
+
+If we want to use + operator for str type then compulsory both arguments should be str 
+type only otherwise we will get error.
+
+x/0 and x%0 always raises "ZeroDivisionError"
+
+'durga'+'10'
+'durga10'
+durga+'10'
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    durga+'10'
+NameError: name 'durga' is not defined
+--------------------------------------->
+Note: It follows numeric value Ex: q means q not 'Q'
+----------------------------------------->
+Eg:
+10 and 20
+0 and 20
+If first argument is zero then result is zero otherwise result is y
+x or y:
+If x evaluates to True then result is x otherwise result is y
+10 or 20 ==> 10
+0 or 20 ==> 20
+not x:
+If x is evalutates to False then result is True otherwise False
+not 10 ==>False
+not 0 ==>True
